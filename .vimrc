@@ -1,3 +1,7 @@
+"При копировании добавить в иксовый буфер
+nmap yy yy:silent .w !xclip
+vmap y y:silent '<,'> w !xclip
+
 "Включаем распознавание типов файлов и типо-специфичные плагины:
 filetype on
 filetype plugin on
